@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number System Converter</h1>
+        <p>Programmer: Nino Dexie Boy P. Dacer</p>
+        <input type="text" id="numberInput" placeholder="Enter a number">
+        <select id="conversionFrom">
+            <option value="binary">Binary</option>
+            <option value="decimal">Decimal</option>
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="octal">Octal</option>
+        </select>
+        <span>to</span>
+        <select id="conversionTo">
+            <option value="binary">Binary</option>
+            <option value="decimal">Decimal</option>
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="octal">Octal</option>
+        </select>
+        <button onclick="convert()">Convert</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
